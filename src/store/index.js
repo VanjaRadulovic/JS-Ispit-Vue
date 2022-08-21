@@ -267,7 +267,7 @@ export default new Vuex.Store({
 
   socket_updateVideo({ commit }, video) {
     const videoNew = JSON.parse(video);
-    console.log("Sto neces")
+    console.log("radi bre")
     commit('setSelectedVideo', videoNew);
   }
 
